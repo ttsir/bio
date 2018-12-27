@@ -5852,7 +5852,9 @@ exports.resume = `## 谭雄
 ### 公司名称：江苏智途科技股份有限公司
 
 * [基础项目](https://ttsir.github.io/project/)
+###https://ttsir.github.io/project/
 * [个人VUE组件](https://ttsir.github.io/component/)
+###https://ttsir.github.io/component/
 `;
 },{}],5:[function(require,module,exports){
 "use strict";
@@ -6237,10 +6239,10 @@ const ar = new index_1.default(container, {
     }
 });
 const skipBtn = document.querySelector('#skip-btn');
-skipBtn.addEventListener('click', function () {
-    ar.skip();
-    skipBtn.style.display = 'none';
-});
+// skipBtn.addEventListener('click', function () {
+//   ar.skip()
+//   skipBtn.style.display = 'none'
+// })
 ar.animate(() => {
     skipBtn.style.display = 'none';
 });
